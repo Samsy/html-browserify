@@ -8,7 +8,7 @@ module.exports = function(file, options) {
 	
 	var buffer = '';
 
-	if (!/\.(tpl|html)/.test(file)) {
+	if (!/\.(tpl|html|svg)/.test(file)) {
 		
 		return through();
 		
